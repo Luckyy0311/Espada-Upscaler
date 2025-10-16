@@ -76,14 +76,15 @@ streamlit run app.py
 
   4. **View the enhanced images, comparisons, and download them.**
 
-**File Structure**
+##File Structure
+```
 Espada-Upscaler/
 ├── app.py                 # Main Streamlit app
 ├── download_models.py     # Script to download Real-ESRGAN weights
 ├── requirements.txt       # Python dependencies
 ├── README.md
 └── (Real-ESRGAN model weights will be downloaded here)
-
+```
 
 ---
 
@@ -100,13 +101,13 @@ Espada-Upscaler/
 - PyTorch
 
 
-**Screenshots
+##Screenshots
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/658fa93b-af3c-4d1f-bed6-a7adb46812d5" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b2e533b-c4b8-4a20-95de-96659fb18385" />
 
 
-**Contributing**
+##Contributing
 
 Contributions are welcome!
 
@@ -120,12 +121,12 @@ Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
 
-**License**
+##License
 
 This project is licensed under the MIT License - see the LICENSE
  file for details.
 
-**Acknowledgements**
+##Acknowledgements
 
 Real-ESRGAN
  - AI super-resolution models
