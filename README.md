@@ -84,25 +84,21 @@ Espada-Upscaler/
 ├── README.md
 └── (Real-ESRGAN model weights will be downloaded here)
 
-**Dependencies**
 
-Python 3.10+
+---
 
-Streamlit
+## Dependencies
 
-OpenCV
+- Python 3.10+  
+- Streamlit  
+- OpenCV  
+- Pillow  
+- NumPy  
+- Real-ESRGAN  
+- BasicSR  
+- gdown  
+- PyTorch
 
-Pillow
-
-NumPy
-
-Real-ESRGAN
-
-BasicSR
-
-gdown
-
-PyTorch
 
 **Screenshots
 
