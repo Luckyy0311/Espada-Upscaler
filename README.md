@@ -65,7 +65,7 @@ This will download RealESRGAN_x4plus.pth and RealESRGAN_x2plus.pth into the proj
 
 ---
 
-**Usage**
+## Usage
 
   1. **Run the Streamlit app:**
 ```bash
@@ -80,7 +80,7 @@ streamlit run app.py
 
 ---
 
-##File Structure
+## File Structure
 ```
 Espada-Upscaler/
 ├── app.py                 # Main Streamlit app
@@ -106,14 +106,14 @@ Espada-Upscaler/
 
 ---
 
-##Screenshots
+## Screenshots
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/658fa93b-af3c-4d1f-bed6-a7adb46812d5" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b2e533b-c4b8-4a20-95de-96659fb18385" />
 
 ---
 
-##Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -129,12 +129,12 @@ Open a Pull Request
 
 ---
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE
  file for details.
 
-##Acknowledgements
+## Acknowledgements
 
 Real-ESRGAN
  - AI super-resolution models
