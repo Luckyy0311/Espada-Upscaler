@@ -63,6 +63,8 @@ python download_models.py
 
 This will download RealESRGAN_x4plus.pth and RealESRGAN_x2plus.pth into the project directory.
 
+---
+
 **Usage**
 
   1. **Run the Streamlit app:**
@@ -75,6 +77,8 @@ streamlit run app.py
   3. **Upload an image or multiple images, choose your enhancement level (2× or 4×), and click Enhance Image.**
 
   4. **View the enhanced images, comparisons, and download them.**
+
+---
 
 ##File Structure
 ```
@@ -100,12 +104,14 @@ Espada-Upscaler/
 - gdown  
 - PyTorch
 
+---
 
 ##Screenshots
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/658fa93b-af3c-4d1f-bed6-a7adb46812d5" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b2e533b-c4b8-4a20-95de-96659fb18385" />
 
+---
 
 ##Contributing
 
@@ -120,6 +126,8 @@ Commit your changes (git commit -m 'Add new feature')
 Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
+
+---
 
 ##License
 
