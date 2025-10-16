@@ -42,40 +42,41 @@
 ```bash
 git clone https://github.com/Luckyy0311/Espada-Upscaler.git
 cd Espada-Upscaler
+```
 
-Create a virtual environment (optional but recommended)
-
+2. **Create a virtual environment (optional but recommended)
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
+```
 
-
-Install dependencies
-
+3. **Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-
-Download the Real-ESRGAN model weights
-
+4. **Download the Real-ESRGAN model weights
+```bash
 python download_models.py
-
+```
 
 This will download RealESRGAN_x4plus.pth and RealESRGAN_x2plus.pth into the project directory.
 
-Usage
+5. **Usage
 
-Run the Streamlit app:
-
+  1. **Run the Streamlit app:
+```bash
 streamlit run app.py
+```
 
+  2. **Open the provided local URL in your browser (usually http://localhost:8501).
 
-Open the provided local URL in your browser (usually http://localhost:8501).
+  3. **Upload an image or multiple images, choose your enhancement level (2× or 4×), and click Enhance Image.
 
-Upload an image or multiple images, choose your enhancement level (2× or 4×), and click Enhance Image.
+  4. **View the enhanced images, comparisons, and download them.
 
-View the enhanced images, comparisons, and download them.
-
-File Structure
+6. **File Structure
 Espada-Upscaler/
 ├── app.py                 # Main Streamlit app
 ├── download_models.py     # Script to download Real-ESRGAN weights
@@ -83,7 +84,7 @@ Espada-Upscaler/
 ├── README.md
 └── (Real-ESRGAN model weights will be downloaded here)
 
-Dependencies
+7. **Dependencies
 
 Python 3.10+
 
@@ -103,11 +104,13 @@ gdown
 
 PyTorch
 
-Screenshots
+**Screenshots
 
-Add some screenshots of your app here for better visibility
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/658fa93b-af3c-4d1f-bed6-a7adb46812d5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b2e533b-c4b8-4a20-95de-96659fb18385" />
 
-Contributing
+
+**Contributing
 
 Contributions are welcome!
 
@@ -120,12 +123,13 @@ Commit your changes (git commit -m 'Add new feature')
 Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
-License
+
+**License
 
 This project is licensed under the MIT License - see the LICENSE
  file for details.
 
-Acknowledgements
+**Acknowledgements
 
 Real-ESRGAN
  - AI super-resolution models
