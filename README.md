@@ -1,4 +1,4 @@
-# Espada-Upscaler 🖼️✨
+# Espada-Upscaler ❤️‍🔥🔥
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.25+-orange.svg)](https://streamlit.io/)
